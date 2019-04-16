@@ -1,3 +1,11 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 html, body{
     font-family: Merriweather, sans-serif;
 }
@@ -9,6 +17,11 @@ body {
 	box-sizing: border-box;
 }
 
+.container{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 strike{
@@ -42,10 +55,9 @@ strike:before {
 
 
 #game {
-  float: right;
+  float: left;
   padding: 20px;
-  margin-right: 150px;
-  
+  width: 50%;
 }
 
 .photo-idols img {
@@ -70,14 +82,15 @@ strike:before {
   	height: 70px;
   	width: 100px;
   	background-color: lightgrey;
+
   }
 
 
 
 #instructions {
-  margin: 100px;
-
-
+	float: left;
+	width: 50%;
+	padding: 20px;
 }
 
 
@@ -90,13 +103,9 @@ h2 {
 
 
 ol {
-	
 	text-align: left;
-	padding: 10px;
-	
-	font-size:18px;
-	
-     }
+	font-size:18px;	
+}
 
 
 li {
@@ -106,3 +115,26 @@ li {
 }
 
 
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+.photo-idols img {
+width: 100%;
+height: auto;
+  	
+}
+
+h1 h2 li {
+  font-size: 2em;
+ }
+
+ #instructions{
+	 width: 100%;
+ }
+
+ #game{
+	width: 100%;
+ }
+
+}
