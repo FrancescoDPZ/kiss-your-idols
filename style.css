@@ -65,7 +65,11 @@ strike:before {
 
 #next {
   	display: none;
-
+  	font-family: roboto;
+  	font-size: 1.5em;
+  	height: 70px;
+  	width: 100px;
+  	background-color: lightgrey;
   }
 
 
