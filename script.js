@@ -1,24 +1,5 @@
 
 
-//var person = prompt("Please enter your name");
-
-
-/*if (person != null) {
-  document.getElementById("demo").innerHTML =
-  "Hello " + person + "! Fuck YOU";
-}
-*/
-
-
-
-/*-----------------------------------------
-
-
-
-------------------------------------------------------*/
-
-
-
 
 
 var myFunction1 = function () {
@@ -115,7 +96,7 @@ var myFunction2 = function () {
             jQuery('#next').toggle('show');
     
     } else if (img_name === 'oprah.jpg') {
-        var newSrc = "reactions/oprah-punch.jpg";
+        var newSrc = "reactions/oprah-laugh.jpg";
             jQuery('.buttons-box').toggle('hide');      
             jQuery('#next').toggle('show');
     
@@ -211,35 +192,3 @@ function refreshPage(){
     window.location.reload();
 } 
 
-
-/*-----------------------------------------------------
-
-$(document).ready(function(){
-  $("#punch").click(function(){
-    $(".buttons-box").hide();
-  });
-  $("#punch").click(function(){
-    $("#next").show();
-  });
-});
-
-
-jQuery(document).ready(function(){
-        jQuery('#punch').on('click', function(event) {   
-             jQuery('.buttons-box').toggle('hide');      
-             jQuery('#next').toggle('show');
-        });
-    });
-
-
-function myFunction1() {
-  var x = document.getElementsByClass("button-next");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-
--------------------------------------------------------------------------------*/
