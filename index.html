@@ -9,6 +9,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	
 	<script type="text/javascript">
 		var random_images_array = ['trump.jpg', 'obama.jpg', 'bill_murray.jpg', 'britney.jpg', 'drake.jpg', 'emma_stone.jpg', 'jennifer_aniston.jpg', 'jon_snow.jpg', 'oprah.jpg', 'snoopy.png' ];
 		function getRandomImage(imgAr, path) {
@@ -46,13 +47,19 @@
 				<script type="text/javascript">getRandomImage(random_images_array, 'images/')</script>
 			</div>
 			<br>
-			<div class="buttons-box">
+			<div class="buttons-box" id="bb-1">
 		
 				<button id="punch" onclick="myFunction1()"><img src="buttons/punch1.jpg" alt="PUNCH"></button>
 				<button id="tickle" onclick="myFunction2()"><img src="buttons/tickle3.jpg" alt="TICKLE"></button>
 				<button id="kiss" onclick="myFunction3()"><img src="buttons/kiss1.jpg" alt="KISS"></button>
 			</div>
 		
+			<div class="buttons-box" id="bb-2">
+		
+				<button id="punch1" onclick="myFunction1()">PUNCH</button>
+				<button id="tickle1" onclick="myFunction2()">TICKLE</button>
+				<button id="kiss1" onclick="myFunction3()">KISS</button>
+			</div>
 		
 			<div class="button-next">
 				<button id="next" onClick="refreshPage()">Next Idol</button>
