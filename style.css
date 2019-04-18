@@ -67,12 +67,17 @@ strike:before {
 
 
 
-.buttons-box img {
+#bb-1 img {
 	height: 100px;
   	width: 100px;
   	background-color: white;
  
   }
+
+
+#bb-2 {
+   display: none;
+}
 
 
 #next {
@@ -139,10 +144,23 @@ h1 h2 li {
 
 
 
-.buttons-box img {
-	height: 20px;
-  	width: 20px;
- 
-  }	
-	
+
+#bb-1 {
+     display: none;
+
+   }
+
+#bb-2 {
+     display: block;
+
+   }
+
+#bb-2 button {
+     display: inline;
+     background-color: lightgrey ; 
+     font-family: roboto;
+     
+   }
+
+
 }
